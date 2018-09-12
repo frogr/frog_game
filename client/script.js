@@ -112,7 +112,7 @@ $(function() {
   // Adds the visual chat typing message
   const addChatTyping = data => {
     data.typing = true;
-    data.message = 'is typing';
+    data.message = "'s lil grandma fingers are goin as fast as they can";
     addChatMessage(data);
   };
 
@@ -241,7 +241,7 @@ $(function() {
   socket.on('login', data => {
     connected = true;
     // Display the welcome message
-    var message = 'Welcome to Socket.IO Chat – ';
+    var message = 'Welcome to frog chat – ';
     log(message, {
       prepend: true
     });
